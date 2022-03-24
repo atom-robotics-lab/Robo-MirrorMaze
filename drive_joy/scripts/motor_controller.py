@@ -31,7 +31,7 @@ class Robot_Controller:
         self.rapwm.start(0)
         self.rbpwm.start(0)
 
-    def provide_pwm():
+    def provide_pwm(self):
         if self.ya_axis >= 0:
             self.lapwm.ChangeDutyCycle(abs(self.ya_axis) * 100)
             self.lbpwm.ChangeDutyCycle(0)
