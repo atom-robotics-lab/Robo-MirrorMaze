@@ -1,0 +1,8 @@
+<launch>	
+	<node name="Joy_Stick_Node" pkg="joy" type="joy_node" output="screen" />
+	<node name="Motor_Controller" pkg="drive_joy" type="motor_controller.py" output="screen" />
+</launch>
+
+
+
+
